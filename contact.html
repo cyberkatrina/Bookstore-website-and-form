@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+   <title>Bookstore Interests Form</title>
+   <meta charset="UTF-8">
+   <meta name="description" content="a form that allows customers to provide interests for the bookstore">
+   <meta name="author" content="Katsiaryna Aliashkevich">
+   <link href="contact.css" rel="stylesheet">
+   <link rel="icon" href="PileOfBooks.jpeg">
+</head>
+
+<body class=bg>
+
+<form method = "POST" action = "http://www.cknuckles.com/cgi/echo.cgi">
+
+    <h2>Bookstore Interests Form</h2>
+
+   <table>
+        <tr>
+             <td class=pinkFont><label>Your Information: </label><br></td>
+      </tr>
+      <tr>
+         <td><label>Client Name: </label></td>
+         <td><input name = "Client Name" type = "text" size = "40" ></td>
+      </tr>
+
+      <tr>
+         <td><label>Email Address: </label></td>
+         <td><input name = "Email Address" type = "text" size = "40" ></td>
+      </tr>
+
+      <tr>
+        <td><label>Phone Number: </label></td>
+        <td><input name = "Phone Number" type = "text" size = "40" ></td>
+     </tr>
+
+      <tr>
+             <td class=pinkFont><label>Activities you are interested in: </label><br></td>
+      </tr>
+
+      <tr>
+         <td><label>Book Club Meetings</label></td>
+         <td><input name = "item[]" type = "checkbox" value = "Book Club Meetings" > </td>
+      </tr>
+
+      <tr>
+         <td><label>Poetry Readings</label></td>
+         <td><input name = "item[]" type = "checkbox" value = "Poetry Readings"></td>
+      </tr>
+
+      <tr>
+         <td><label>Children's Story Readings</label></td>
+         <td><input name = "item[]" type = "checkbox" value = "Children's Story Readings"></td>
+      </tr>
+
+      <tr>
+        <td><label><u> General Comments: </u></label></td>
+    </tr>
+
+    <tr>
+        <td>
+            <textarea name = "comments" rows = "4" cols = "36">Enter your comments here: </textarea>
+        </td>
+    </tr>
+
+    <tr>
+        <td><input type = "submit" value = "Submit" ><input type = "reset" value = "Reset" ></td>
+    </tr>
+
+    <tr>
+        <td><a href="bookstore.html">Back to HomePage</a></td>
+    </tr>
+
+    </table>
+
+</form>
+
+</body>
+</html>

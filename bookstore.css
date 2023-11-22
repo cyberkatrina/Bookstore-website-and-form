@@ -1,0 +1,47 @@
+article {
+    height:530px;
+    width:25%;
+    float:left;
+}
+
+#column2 {
+    background-color: lightgoldenrodyellow;
+}
+
+#column3 {
+    background-color: lightseagreen;
+}
+
+h2 {
+    color: #000000;
+    text-align: center;
+    background-color: lightcoral;
+    border:3px solid black;
+    padding:15px;
+    margin:25px auto;
+    font-size:34px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    width:50%;
+}
+
+.bg {
+    background-image: url('bg2.png');
+    background-position: center top;
+    text-align: center;
+}
+
+p strong {
+    text-align: center;
+}
+
+p u {
+    text-align: center;
+    font-weight: bold;
+    font-size:22px;
+    font-family: "Papyrus", fantasy;
+    margin: auto;
+}
+
+table, td, th {
+    border: 1px solid;
+}

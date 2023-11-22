@@ -1,0 +1,49 @@
+.pinkFont{
+    background-color: pink;
+    font-size:16pt;
+    font-family: courier;
+    font-weight: bold;
+    font-style: italic;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+
+}
+tr:nth-child(even) {
+     background-color: #8cd15a;
+}
+
+tr:nth-child(odd) {
+    background-color: #8cd15a;
+}
+
+h2 {
+     color: #000000;
+     text-align: center;
+     background-color: #8cd15a;
+     border:3px solid black;
+     padding:15px;
+     margin-left: 20%;
+     font-size:34px;
+     font-family: "Lucida Console", "Courier New", monospace;
+     width:50%;
+}
+
+.bg {
+     background-image: url('bg1.png');
+     background-position: center;
+     text-align: center;
+     margin-left: 10%;
+}
+
+td strong {
+     text-align: center;
+}
+
+td u {
+     text-align: center;
+     font-weight: bold;
+     font-size:20px;
+     font-family: "Papyrus", fantasy;
+     margin: auto;
+}
